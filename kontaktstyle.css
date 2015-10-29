@@ -1,0 +1,59 @@
+#header {
+	margin-top: -20px;
+	height: 80px;
+	background-color: black;
+	margin-bottom: 10px;
+}
+header a { color: #fff; }
+
+header ul li a
+{
+	display: block;
+	float: left;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px 100px;
+	font-size: 16px;
+}
+
+header ul li a:hover,header ul li a.selected
+{
+	border-color: green;
+	color: green;
+	background: #111;
+}
+
+.square{
+	position: center;
+	margin-top: 20px;
+	height: 500px;
+	background-color: white;
+	margin-bottom: 10px;
+	border: 1px solid green;
+	border-radius: 3px;
+	box-shadow: 0px 2px 3px green;
+}
+.square h3 {
+	margin-top: 100px;
+	font-family: Arial;
+	text-decoration:none;
+	text-align: center;
+	color: green;
+}
+
+
+.square p {
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+
+footer {
+    background-color: black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
